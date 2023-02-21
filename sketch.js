@@ -60,6 +60,12 @@ function setup() {
   
    // add as imagens
   
+  var gameOver = createSprite(300, 100, 20, 20);
+    gameOver.addImage(gameOverImg);
+  
+  var restart = createSprite(300, 100, 20, 20);
+    restart.addImage(restartImg);
+    
   gameOver.scale = 0.5;
   restart.scale = 0.5;
   
